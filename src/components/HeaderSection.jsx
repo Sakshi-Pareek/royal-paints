@@ -18,7 +18,7 @@ const HeaderSection = () => {
         <img
           src={HeaderBottomLayer}
           alt="HeaderBottomLayer"
-          className="absolute 2xl:bottom-[-11%] xl:bottom-[-8%] lg:bottom-[-3%] sm:bottom-[-3%] bottom-[-2%] left-0 w-full"
+          className="absolute tab:bottom-[-11%] 2xl:bottom-[-9%] xl:bottom-[-8%] lg:bottom-[-3%] sm:bottom-[-3%] bottom-[-2%] left-0 w-full"
         />
         <nav className="py-2 pe-8 relative z-50" data-aos="fade-down">
           <div className="flex justify-between items-center">
@@ -42,22 +42,22 @@ const HeaderSection = () => {
               </div>
               <ul className="flex max-md:flex-col gap-6 items-center mb-0 ps-0">
                 <li onClick={() => setNav(false)} className="md:mb-0 mb-6 relative hover:after:w-full">
-                  <a href="" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
+                  <a href="" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:left-0 after:rounded-sm hover:after:w-[50%] hover:after:left-[30%] transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
                     Home
                   </a>
                 </li>
                 <li onClick={() => setNav(false)} className="md:mb-0 mb-6">
-                  <a href="" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
+                  <a href="#about" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8]after:left-0 after:rounded-sm hover:after:w-[50%] hover:after:left-[30%] transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
                     About Us
                   </a>
                 </li>
                 <li onClick={() => setNav(false)} className="md:mb-0 mb-6">
-                  <a href="#gallery" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
+                  <a href="#gallery" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:left-0 after:rounded-sm hover:after:w-[50%] hover:after:left-[30%] transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
                     Gallery
                   </a>
                 </li>
                 <li onClick={() => setNav(false)} className="mb-0">
-                  <a href="#contact" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
+                  <a href="#contact" className="text-xl font-bold text-white after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:left-0 after:rounded-sm hover:after:w-[50%] hover:after:left-[30%] transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear">
                     Contact Us
                   </a>
                 </li>

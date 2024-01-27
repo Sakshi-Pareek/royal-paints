@@ -5,7 +5,7 @@ import SatisfiedBottomLayer from "../assets/images/webp/satisified-bottom-layer.
 const Satisfied = () => {
   return (
     <>
-      <div className="bg-gradient-to-b from-slate-900 to-fuchsia-600 xl:py-64 sm:pt-40 pt-24 sm:pb-32 pb-24 2xl:px-10 pl-8 pr-4 relative">
+      <div id="about" className="bg-gradient-to-b from-slate-900 to-fuchsia-600 xl:py-64 sm:pt-40 pt-24 sm:pb-32 pb-24 2xl:px-10 pl-8 pr-4 relative">
         <img
           src={SatisfiedBottomLayer}
           alt="SatisfiedBottomLayer"

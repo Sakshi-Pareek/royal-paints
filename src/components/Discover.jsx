@@ -8,7 +8,7 @@ const Discover = () => {
         <img
           src={DiscoverBottomlayer}
           alt="DiscoverBottomlayer"
-          className="absolute 2xl:bottom-[-110%] xl:bottom-[-75%] lg:bottom-[-60%] sm:bottom-[-42%] bottom-[-20%] start-0 w-full"
+          className="absolute tab:bottom-[-110%] 2xl:bottom-[-90%] xl:bottom-[-75%] lg:bottom-[-60%] sm:bottom-[-42%] bottom-[-20%] start-0 w-full"
         />
         <h2 className="text-[28px] font-bold text-center sm:mb-14 mb-8 bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent bg-clip-text" data-aos="fade-down">
           Discover exclusive deals and discounts{" "}

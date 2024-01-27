@@ -14,6 +14,7 @@ module.exports = {
         'tablet': '640px',
         'laptop': '1440px',
         'desktop': '1366px',
+        'tab': '1600px',
       },
       boxShadow: {
         "btn_shadow": '5px 10px 15px #FD749B',

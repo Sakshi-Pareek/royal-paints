@@ -9,7 +9,7 @@ const WelcomeToRp = () => {
         <img
           src={WelcomeBottonLayer}
           alt="WelcomeBottonLayer"
-          className="absolute start-0 2xl:-bottom-[33%] xl:-bottom-[25%] lg:-bottom-[10%] sm:-bottom-[8%] -bottom-[4.5%] w-full z-10"
+          className="absolute start-0 tab:-bottom-[33%] 2xl:-bottom-[31%] laptop:-bottom-[25%] xl:-bottom-[25%] lg:-bottom-[10%] sm:-bottom-[8%] -bottom-[4.5%] w-full z-10"
         />
         <div className="container md:px-4 px-4 mx-auto py-4 relative z-10">
           <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-28 sm:gap-10 gap-6">

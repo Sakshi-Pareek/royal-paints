@@ -19,11 +19,19 @@ const InteriorSection = () => {
     centerPadding: "522px",
     responsive: [
       {
-        breakpoint: 1520,
+        breakpoint: 1600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerPadding: "478px",
+        },
+      },
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: "394px",
         },
       },
       {
@@ -96,7 +104,7 @@ const InteriorSection = () => {
         <div className="max-w-[1920px]" data-aos="zoom-out-up">
           <Slider {...settings}>
             <div className="sm:px-0 px-1">
-              <div className="slide_card bg-white rounded-[15px] xl:px-12 lg:px-6 sm:px-4 px-2 h-full lg:my-28 mt-28 md:mb-20 sm:mb-16 mb-4 cursor-pointer">
+              <div className="slide_card bg-white rounded-[15px] xl:px-12 lg:px-6 px-4 h-full lg:my-28 mt-28 md:mb-20 sm:mb-16 mb-4 cursor-pointer">
                 <h4 className="xl:pt-[23px] sm:pt-2 xl:pb-[19px] sm:pb-2 py-1 lg:text-[28px] md:text-[22px] text-[18px] font-bold text-[#888888] md:leading-10">
                 Interior
                 </h4>
@@ -111,7 +119,7 @@ const InteriorSection = () => {
               </div>
             </div>
             <div className="sm:px-0 px-1">
-              <div className="slide_card bg-white rounded-[15px] xl:px-12 lg:px-6 sm:px-4 px-2 h-full lg:my-28 mt-28 md:mb-20 sm:mb-16 mb-4 cursor-pointer">
+              <div className="slide_card bg-white rounded-[15px] xl:px-12 lg:px-6 px-4 h-full lg:my-28 mt-28 md:mb-20 sm:mb-16 mb-4 cursor-pointer">
                 <h4 className="xl:pt-[23px] sm:pt-2 xl:pb-[19px] sm:pb-2 py-1 lg:text-[28px] md:text-[22px] text-[18px] font-bold text-[#888888] md:leading-10">
                 Your perfect color
                 </h4>
@@ -126,7 +134,7 @@ const InteriorSection = () => {
               </div>
             </div>
             <div className="sm:px-0 px-1">
-              <div className="slide_card bg-white rounded-[15px] xl:px-12 lg:px-6 sm:px-4 px-2 h-full lg:my-28 mt-28 m:mb-20 sm:mb-16 mb-4 cursor-pointer">
+              <div className="slide_card bg-white rounded-[15px] xl:px-12 lg:px-6 px-4 h-full lg:my-28 mt-28 m:mb-20 sm:mb-16 mb-4 cursor-pointer">
                 <h4 className="xl:pt-[23px] sm:pt-2 xl:pb-[19px] sm:pb-2 py-1 lg:text-[28px] md:text-[22px] text-[18px] font-bold text-[#888888] md:leading-10">
                 Exterior 
                 </h4>
